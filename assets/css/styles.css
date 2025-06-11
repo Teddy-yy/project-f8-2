@@ -81,8 +81,170 @@ a{
 }
 
 .header .btn{
+    --height: 50px;
+
     min-width: 144px;
-    height: 50px;
-    border-radius: 24.5px;
+    height: var(--height);
+    border-radius: calc(var(--height) / 2);
     margin-left: 49px;
+}
+
+/* Hero */
+.hero{
+    padding: 56px 0 65px;
+    background: #FFFCF4;
+}
+
+.hero .body{
+    display: flex;
+    gap: 230px;
+    align-items: center;
+}
+
+.hero .image{
+    position: relative;
+}
+
+.hero .hero-img{
+    width: 470px;
+    height: 685px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.hero .title{
+    color: #171100;
+    font-family: "Sen", sans-serif;
+    font-size: 5.8rem;
+    font-weight: 700;
+    line-height: 1.17; /* 117.241% */
+    letter-spacing: -0.116rem;
+}
+
+.hero .info > .desc {
+    margin-top: 22px;
+    color: #5F5B53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.67; /* 166.667% */
+}
+
+.hero .cta-btn{
+    display: flex;
+    margin-top: 38px;
+}
+
+.hero .btn{
+    --height: 64px;
+
+    min-width: 180px;
+    height: var(--height);
+    border-radius: calc(var(--height) / 2);
+    background: #FFB900;
+}
+
+.hero .watch-btn{
+    margin-left: 28px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero .watch-btn .icon{
+    width: 40px;
+    height: 40px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
+}
+
+.hero .watch-btn .icon .play-icon{
+    width: 12px;
+    height: 12px;
+}
+
+.hero .watch-btn .desc{
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
+}
+
+.hero .recent-engagement{
+    margin-top: 48px;
+}
+
+.hero .recent-engagement .sub-title{
+    color: #5F5B53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.67; /* 166.667% */
+}
+
+.hero .recent-engagement .desc{
+    margin-top: 8px;
+    display: flex;
+    gap: 28px;
+}
+
+.hero .recent-engagement .desc p{
+    color: #5F5B53;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.hero .recent-engagement .desc span{
+    color: #171100;
+    font-family: 'Sen', sans-serif;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.23; /* 122.727% */
+}
+
+.hero .courses{
+    position: absolute;
+    background-color: #FFF;
+    width: 270px;
+    height: 244px;
+    bottom: 48px;
+    left: 300px;
+    border-radius: 12px;
+    box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero .course{
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.hero .course .icon{
+    width: 48px;
+    height: 48px;
+    background: var(--bg);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .course .course-info .number-course{
+    color: #5F5B53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+}
+
+.hero .course .course-info .name-course{
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
 }
