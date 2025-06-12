@@ -384,3 +384,64 @@ a{
 .popular-courses .btn:hover{
     background: #FFB900;
 }
+
+/* Testimonial */
+.testimonial{
+    padding: 96px 0;
+    color: #FFF;
+    background: #2E2100;
+}
+
+.testimonial .body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial .user-avatar{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial .user-name{
+    margin-top: 18px;
+    color: #F7F7F7;
+    font-family: 'Sen', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.42; /* 141.667% */
+}
+
+.testimonial .user-desc{
+    margin-top: 4px;
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+}
+
+.testimonial .dots{
+    margin-top: 28px;
+}
+
+.testimonial .testimonial-text{
+    position: relative;
+    margin-top: 30px;
+}
+
+.testimonial .testimonial-text .quote-icon{
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+
+.testimonial .testimonial-text .quote{
+    width: 740px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 40px; /* 153.846% */
+}
